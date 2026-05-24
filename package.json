@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "@hitarth-gg:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
