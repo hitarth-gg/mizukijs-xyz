@@ -1,4 +1,4 @@
-const TOSHO = decodeURIComponent(atob("aHR0cHM6Ly9mZWVkLmFuaW1ldG9zaG8ub3Jn"));
+const TOSHO = decodeURIComponent(atob("aHR0cHM6Ly9mZWVkLmFuaW1ldG9zaG8ueHl6"));
 
 function GET_TOSHO_RSS_BY_QUERY(quality = "all", aid = null, eid = null) {
   const q =
