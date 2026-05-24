@@ -51,7 +51,7 @@ export default new (class Tosho {
       }
 
       const data = await response.json();
-      return data;
+      return data?.data;
     } catch (error) {
       throw new Error(error);
     }
@@ -66,7 +66,7 @@ export default new (class Tosho {
       }
 
       const data = await response.json();
-      return data;
+      return data?.data;
     } catch (error) {
       console.error(error);
       throw new Error(error);
